@@ -1,0 +1,7 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /scisoft/bundles/nu/v1_18_01/manifest/nu-1.18.01-Linux64bit+2.6-2.12-s24-e9-prof_MANIFEST.txt was not found on this server.</p>
+</body></html>
