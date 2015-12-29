@@ -38,7 +38,6 @@ ifbeam               v1_4_16         ifbeam-1.4.16-slf6-x86_64-e9-p2710-prof.tar
 nucondb              v1_4_16         nucondb-1.4.16-slf6-x86_64-e9-p2710-prof.tar.bz2             -f Linux64bit+2.6-2.12     -q e9:p2710:prof   
 pdfsets              v5_9_1b         pdfsets-5.9.1b-noarch.tar.bz2                                -f Linux64bit+2.6-2.12                        
 g4emlow              v6_32           g4emlow-6.32-noarch.tar.bz2                                  -f Linux64bit+2.6-2.12                        
-g4neutron            v4_2            g4neutron-4.2-noarch.tar.bz2                                 -f Linux64bit+2.6-2.12                        
 g4neutronxs          v1_2            g4neutronxs-1.2-noarch.tar.bz2                               -f Linux64bit+2.6-2.12                        
 g4nucleonxs          v1_1            g4nucleonxs-1.1-noarch.tar.bz2                               -f Linux64bit+2.6-2.12                        
 g4photon             v3_0            g4photon-3.0-noarch.tar.bz2                                  -f Linux64bit+2.6-2.12                        
