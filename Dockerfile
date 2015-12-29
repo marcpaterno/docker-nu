@@ -1,13 +1,15 @@
 FROM paterno/centos67-build_base_v4_9_3-e9-prof
 MAINTAINER Marc Paterno paterno@fnal.gov
-ENV REFRESHED_AT 2015-12-23
+ENV REFRESHED_AT 2015-12-29
 LABEL Vendor="FNAL"
 LABEL License="BSD"
-COPY "nu-1.18.01-Linux64bit+2.6-2.12-s26-e9-prof_MANIFEST.txt" "/products/nu-1.18.01-Linux64bit+2.6-2.12-s26-e9-prof_MANIFEST.txt"
 RUN cd /products \
   && curl -O http://scisoft.fnal.gov/scisoft/bundles/tools/pullProducts \
   && chmod u+x pullProducts \
-  && ./pullProducts -r -l /products slf6 nu-v1_18_01 s26-e9 prof
+  && ./pullProducts -r /products slf6 nu-v1_18_01 s26-e9 prof
+
+COPY nu_setup.sh /etc/nu_setup.sh
+RUN echo 'source /etc/nu_setup.sh' >> /etc/profile
 
 # Default command 
 CMD ["/bin/bash", "-l"]
